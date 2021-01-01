@@ -8,6 +8,7 @@ import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
 import org.bukkit.Location;
 import org.bukkit.event.Event;
+import woolyung.main.MineplanetPlot;
 import woolyung.main.plot.Data.PlotDataEx;
 import woolyung.skplanet.SKPlanet;
 
@@ -24,6 +25,10 @@ public class ExprPropPlotDataHelpers extends SimpleExpression<String> {
     @Override
     protected String[] get(Event event) {
         ArrayList<String> values = plotData.getSingle(event).helpers;
+        for (int i = 0; i < values.size(); i++) {
+            String value = values.get(i);
+            values.set(i, MineplanetPlot.instance.getPlotDatabase().getPlayerData(value).name);
+        }
 
         return values.toArray(new String[values.size()]);
     }

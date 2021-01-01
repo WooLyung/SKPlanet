@@ -18,6 +18,8 @@ public class ExprPropPlotLocDataSection extends SimplePropertyExpression<PlotLoc
 
     @Override
     public String convert(PlotLocData data) {
+        SKPlanet.getPlugin().getServer().broadcastMessage("!" + data.plotSection.toString());
+
         if (data == null)
             return null;
         else

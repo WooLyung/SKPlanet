@@ -1,0 +1,6 @@
+name: SKPlanet
+version: 1.0.0
+main: woolyung.skplanet.SKPlanet
+depend: [Skript]
+description: skript addon for mineplanet server.
+website: github.com/WooLyung/SKPlanet
