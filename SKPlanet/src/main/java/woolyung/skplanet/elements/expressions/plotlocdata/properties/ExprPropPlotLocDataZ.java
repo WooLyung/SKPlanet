@@ -8,12 +8,12 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotLocDataZ extends SimplePropertyExpression<PlotLocData, Integer> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotLocDataZ.class, Integer.class, "z location", "plotlocdata");
+        SKPlanet.registerPropExpr(ExprPropPlotLocDataZ.class, Integer.class, "plot loc data z-loc", "plotlocdata");
     }
 
     @Override
     protected String getPropertyName() {
-        return "z location of plot location data";
+        return "plot loc data z-loc of plot location data";
     }
 
     @Override
