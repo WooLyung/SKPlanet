@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataItemClear extends SimplePropertyExpression<PlotDataEx, Boolean> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataItemClear.class, Boolean.class, "item clear option", "bool");
+        SKPlanet.registerPropExpr(ExprPropPlotDataItemClear.class, Boolean.class, "item clear option", "plotdata");
     }
 
     @Override

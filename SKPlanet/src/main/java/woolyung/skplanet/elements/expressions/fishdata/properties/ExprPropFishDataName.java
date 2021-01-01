@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropFishDataName extends SimplePropertyExpression<CaughtFishData, String> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropFishDataName.class, String.class, "name", "string");
+        SKPlanet.registerPropExpr(ExprPropFishDataName.class, String.class, "name", "fishdata");
     }
 
     @Override

@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropFishDataIsMale extends SimplePropertyExpression<CaughtFishData, Boolean> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropFishDataIsMale.class, Boolean.class, "isMale", "bool");
+        SKPlanet.registerPropExpr(ExprPropFishDataIsMale.class, Boolean.class, "isMale", "fishdata");
     }
 
     @Override

@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataBiome extends SimplePropertyExpression<PlotDataEx, String> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataBiome.class, String.class, "biome", "string");
+        SKPlanet.registerPropExpr(ExprPropPlotDataBiome.class, String.class, "biome", "plotdata");
     }
 
     @Override

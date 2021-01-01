@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotLocDataInnerX extends SimplePropertyExpression<PlotLocData, Integer> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotLocDataInnerX.class, Integer.class, "inner x location", "integer");
+        SKPlanet.registerPropExpr(ExprPropPlotLocDataInnerX.class, Integer.class, "inner x location", "plotlocdata");
     }
 
     @Override

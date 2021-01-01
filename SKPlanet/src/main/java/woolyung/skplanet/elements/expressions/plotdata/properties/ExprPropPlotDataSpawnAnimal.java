@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataSpawnAnimal extends SimplePropertyExpression<PlotDataEx, Boolean> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataSpawnAnimal.class, Boolean.class, "spawn animal option", "bool");
+        SKPlanet.registerPropExpr(ExprPropPlotDataSpawnAnimal.class, Boolean.class, "spawn animal option", "plotdata");
     }
 
     @Override

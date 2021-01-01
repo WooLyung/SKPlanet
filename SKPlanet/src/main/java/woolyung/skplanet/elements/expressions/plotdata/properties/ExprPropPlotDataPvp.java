@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataPvp extends SimplePropertyExpression<PlotDataEx, Boolean> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataPvp.class, Boolean.class, "pvp option", "bool");
+        SKPlanet.registerPropExpr(ExprPropPlotDataPvp.class, Boolean.class, "pvp option", "plotdata");
     }
 
     @Override

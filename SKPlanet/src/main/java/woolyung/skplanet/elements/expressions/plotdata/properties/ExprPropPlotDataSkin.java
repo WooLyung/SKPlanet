@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataSkin extends SimplePropertyExpression<PlotDataEx, String> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataSkin.class, String.class, "skin", "string");
+        SKPlanet.registerPropExpr(ExprPropPlotDataSkin.class, String.class, "skin", "plotdata");
     }
 
     @Override

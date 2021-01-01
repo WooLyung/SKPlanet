@@ -9,7 +9,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataOwner extends SimplePropertyExpression<PlotDataEx, String> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataOwner.class, String.class, "owner", "string");
+        SKPlanet.registerPropExpr(ExprPropPlotDataOwner.class, String.class, "owner", "plotdata");
     }
 
     @Override

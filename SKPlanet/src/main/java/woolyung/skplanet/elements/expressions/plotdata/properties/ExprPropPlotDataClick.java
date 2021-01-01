@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataClick extends SimplePropertyExpression<PlotDataEx, Boolean> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataClick.class, Boolean.class, "click option", "bool");
+        SKPlanet.registerPropExpr(ExprPropPlotDataClick.class, Boolean.class, "click option", "plotdata");
     }
 
     @Override

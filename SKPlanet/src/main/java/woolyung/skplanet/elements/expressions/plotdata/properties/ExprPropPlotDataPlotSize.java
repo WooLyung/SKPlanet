@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataPlotSize extends SimplePropertyExpression<PlotDataEx, Integer> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataPlotSize.class, Integer.class, "plot size", "integer");
+        SKPlanet.registerPropExpr(ExprPropPlotDataPlotSize.class, Integer.class, "plot size", "plotdata");
     }
 
     @Override

@@ -8,7 +8,7 @@ import woolyung.skplanet.SKPlanet;
 public class ExprPropPlotDataFlow extends SimplePropertyExpression<PlotDataEx, Boolean> {
 
     static {
-        SKPlanet.registerPropExpr(ExprPropPlotDataFlow.class, Boolean.class, "flow option", "bool");
+        SKPlanet.registerPropExpr(ExprPropPlotDataFlow.class, Boolean.class, "flow option", "plotdata");
     }
 
     @Override
