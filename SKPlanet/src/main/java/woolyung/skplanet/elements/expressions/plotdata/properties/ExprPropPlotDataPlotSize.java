@@ -2,6 +2,7 @@ package woolyung.skplanet.elements.expressions.plotdata.properties;
 
 import ch.njol.skript.classes.Changer;
 import ch.njol.skript.expressions.base.SimplePropertyExpression;
+import woolyung.main.MineplanetPlot;
 import woolyung.main.plot.Data.PlotDataEx;
 import woolyung.skplanet.SKPlanet;
 
@@ -21,7 +22,7 @@ public class ExprPropPlotDataPlotSize extends SimplePropertyExpression<PlotDataE
         if (data == null)
             return null;
         else
-            return data.plotSize;
+            return MineplanetPlot.instance.getPlotDatabase().getPlotByExtendPlot(data.extend).size();
     }
 
     @Override
