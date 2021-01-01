@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="angler-on-plot">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../library/angler-on-plot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/mineplanet-plot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/Skript.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
