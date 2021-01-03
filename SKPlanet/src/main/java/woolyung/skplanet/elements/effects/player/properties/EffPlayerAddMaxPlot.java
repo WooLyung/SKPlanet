@@ -27,7 +27,7 @@ public class EffPlayerAddMaxPlot extends Effect {
 
         if (v != null && p != null) {
             PlayerData playerData = MineplanetPlot.instance.getPlotDatabase().getPlayerData(p);
-            MineplanetPlot.instance.getPlotDatabase().setMaxPlot(playerData.uuid, v + playerData.maxPlot);
+            MineplanetPlot.instance.getPlotDatabase().setMaxPlot(playerData.name, v + playerData.maxPlot);
         }
     }
 

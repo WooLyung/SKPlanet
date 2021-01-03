@@ -13,7 +13,7 @@ import woolyung.main.plot.Data.PlayerData;
 public class EffPlayerSetMaxPlot extends Effect {
 
     static {
-        Skript.registerEffect(EffPlayerAddMaxPlot.class, "set %player% max plot to %integer%");
+        Skript.registerEffect(EffPlayerSetMaxPlot.class, "set %player% max plot to %integer%");
     }
 
     private Expression<Integer> value;
@@ -26,7 +26,7 @@ public class EffPlayerSetMaxPlot extends Effect {
 
         if (v != null && p != null) {
             PlayerData playerData = MineplanetPlot.instance.getPlotDatabase().getPlayerData(p);
-            MineplanetPlot.instance.getPlotDatabase().setMaxPlot(playerData.uuid, v);
+            MineplanetPlot.instance.getPlotDatabase().setMaxPlot(playerData.name, v);
         }
     }
 
